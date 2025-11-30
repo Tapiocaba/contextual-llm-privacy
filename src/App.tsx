@@ -330,12 +330,12 @@ const generateCursorMd = async () => {
   return (
     <div className="app-shell">
       <header className="hero">
-        <p className="hero__eyebrow">Contextual privacy wizard</p>
-        <h1>Tailored cursor.md for every coding context</h1>
+        <p className="hero__eyebrow">COMPASS: Context Oriented Modes for Privacy-Aware Software Systems</p>
+        <h1>Tailored markdown for every coding context</h1>
         <p className="hero__lead">
-          Answer an 11-step survey about your coding environment. We hand back a
-          Cursor-ready privacy mode file.
+          Answer an 11-step survey about your coding environment. We hand back a privacy mode markdown file.
         </p>
+        <p className="hero__lead">Supports Cursor (Claude coming soon!)</p>
       </header>
 
       {!hasStarted ? (
