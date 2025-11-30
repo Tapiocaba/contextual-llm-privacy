@@ -1,4 +1,4 @@
-# COMPASS: Context Oriented Modes for Privacy-Aware Software Systems
+# contextual-llm-privacy
 
 cs 279r final project built with React + TypeScript + Vite.
 
