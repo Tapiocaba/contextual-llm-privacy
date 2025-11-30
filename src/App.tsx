@@ -170,11 +170,11 @@ function App() {
     <div className="app-shell">
       <header className="hero">
         <p className="hero__eyebrow">COMPASS: Context Oriented Modes for Privacy-Aware Software Systems</p>
-        <h1>Generate AGENTS.md from your real project context</h1>
+        <h1>Tailored markdown for every coding context</h1>
         <p className="hero__lead">
-          Answer a short survey about your coding environment. We call the OpenAI
-          API and return a ready-to-use AGENTS.md for your coding assistant.
+          Answer an 11-step survey about your coding environment. We hand back a privacy mode markdown file.
         </p>
+        <p className="hero__lead">Supports Cursor (Claude coming soon!)</p>
       </header>
 
       {intakeMode === 'chat' ? (
